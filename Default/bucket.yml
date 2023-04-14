@@ -1,6 +1,6 @@
 flows:
-  a586291c-b844-4a3f-8b2c-5ff73ba02665: {ver: 1, file: Second_Flow.snapshot, comments: Adding
-      GetFile, author: HR, created: 1681457231469, flowName: Second Flow, flowDesc: ''}
+  a586291c-b844-4a3f-8b2c-5ff73ba02665: {ver: 2, file: Second_Flow.snapshot, comments: Adding
+      LogAttribute, author: HR, created: 1681457231518, flowName: Second Flow, flowDesc: ''}
   f0d8276c-6595-4168-9343-36c2c946531e: {ver: 1, file: First_Flow.snapshot, comments: Initial
       version, author: anonymous, created: 1681457231304, flowName: First Flow, flowDesc: ''}
 layoutVer: 1
