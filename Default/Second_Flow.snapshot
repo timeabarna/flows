@@ -8,7 +8,40 @@
       "flowContents" : {
         "comments" : "",
         "componentType" : "PROCESS_GROUP",
-        "connections" : [ ],
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "3ccfeddb-8414-3123-9dda-a112d6e629d3",
+            "id" : "d31c04a6-9a32-332e-a7af-17cfff839197",
+            "instanceIdentifier" : "7e6bad23-0187-1000-47ec-8da4bceb8941",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "3ccfeddb-8414-3123-9dda-a112d6e629d3",
+          "identifier" : "882c56fc-6d40-3f8d-925b-2742269ab5cc",
+          "instanceIdentifier" : "7e6bffe1-0187-1000-72c3-55976b55d6a7",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "3ccfeddb-8414-3123-9dda-a112d6e629d3",
+            "id" : "0ea0cc39-a2b4-3901-837a-f5076dc3ffca",
+            "instanceIdentifier" : "7e6b0252-0187-1000-1f06-4c226fb42a20",
+            "name" : "GetFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
         "controllerServices" : [ ],
         "defaultBackPressureDataSizeThreshold" : "1 GB",
         "defaultBackPressureObjectThreshold" : 10000,
